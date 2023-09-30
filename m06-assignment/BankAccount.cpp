@@ -138,23 +138,11 @@ int largest(vector<shared_ptr<BankAccount>>& accountsVector) {
 // Return true if the bank account is the same as the other, return false
 // otherwise
 bool BankAccount::equals(BankAccount other) {
-  if (this->accountId == other.accountId) {
+  if (this->accountId == other.accountId)
     return true;
-  } else {
+  else
     return false;
-  }
 }
-
-// Insert a bank account at a specific position
-// vector<BankAccount> insertAccount(vector<BankAccount> vec, string name, int
-// id,
-//                                   int number, double balance, int pos) {
-//   // Create an instance of BankAccount with the correct parameters
-//   BankAccount newAccount(name, id, number, balance);
-//   // NOTE: Don't forget about zero-based indexing
-//   vec.insert(vec.begin() + pos, newAccount);
-//   return vec;
-// }
 
 // Insert a bank account pointer at a specific location
 void insertAccount(vector<shared_ptr<BankAccount>>& accountsVector) {
