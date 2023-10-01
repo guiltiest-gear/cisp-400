@@ -23,18 +23,18 @@ void Circle::setY(int ycoord) { y = ycoord; }
 void Circle::setRadius(int r) { radius = r; }
 
 // Return the area of the circle using pi*r^2
-double Circle::getArea() { return M_PI * pow(radius, 2); }
+double Circle::getArea() { return M_PI * pow(getRadius(), 2); }
 
 // Return the circumference using 2*pi*r
 double Circle::getCircumference() {
   // Use 2.0 to avoid implicit cast to int
-  return 2.0 * M_PI * radius;
+  return 2.0 * M_PI * getRadius();
 }
 
 // Return the circle as a string in the form (x,y):radius
 string Circle::toString() {
-  return "(" + to_string(x) + "," + to_string(y) + "):" + to_string(radius) +
-         '\n';
+  return "(" + to_string(getX()) + "," + to_string(getY()) +
+         "):" + to_string(getRadius()) + '\n';
 }
 
 // Return the distance between this circle and another circle
@@ -56,12 +56,11 @@ void Circle::moveTo(int xcoord, int ycoord) {
 bool Circle::intersects(Circle other) {
   // Get the distance with a function we already have
   double distance = Circle::getDistance(other);
-  int sum = this->radius + other.radius;
-  if (distance < sum) {
+  int sum = this->getRadius() + other.getRadius();
+  if (distance < sum)
     return true;
-  } else {
+  else
     return false;
-  }
 }
 
 // Multiply the radius by the scale
@@ -70,7 +69,7 @@ void Circle::resize(double scale) { radius *= scale; }
 // Return a new circle with the same center as this circle, but radius
 // multiplied by scale
 Circle Circle::resize(int scale) {
-  return Circle(this->x, this->y, this->radius * scale);
+  return Circle(this->getX(), this->getY(), this->getRadius() * scale);
 }
 
 // Return the value of count
