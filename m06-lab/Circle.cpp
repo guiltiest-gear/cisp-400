@@ -40,7 +40,8 @@ string Circle::toString() {
 // Return the distance between this circle and another circle
 double Circle::getDistance(Circle other) {
   // Distance is sqrt((x2 - x1)^2 + (y2 - y1)^2)
-  return sqrt(pow((other.x - this->x), 2) + pow((other.x - this->x), 2));
+  return sqrt(pow((other.getX() - this->getX()), 2) +
+              pow((other.getY() - this->getY()), 2));
 }
 
 // Move the center of the circle to a new coordinate
