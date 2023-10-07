@@ -1,3 +1,6 @@
+#ifndef PAINTING_H
+#define PAINTING_H
+
 #include <fstream>
 #include <memory>
 #include <sstream>
@@ -28,3 +31,5 @@ class Painting {
 
   void setRadius(int, int);
 };
+
+#endif  // !PAINTING_H
