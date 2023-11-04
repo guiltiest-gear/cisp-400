@@ -58,7 +58,7 @@ void Bank::fillVector(ifstream &input,
       // const char array, or C-style string
       throw "File Not Found";
     }
-  } catch (const char message) {
+  } catch (const char *message) {
     cout << message << '\n';
     exit(1);
   }
