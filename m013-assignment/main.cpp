@@ -89,17 +89,17 @@ void recursiveQuickSort(vector<shared_ptr<MagicalCreatures>> *m, int start,
 
 int recursiveBinarySearch(vector<shared_ptr<MagicalCreatures>> m, int first,
                           int last, string name) {
-  while (first <= last) {
-    int mid = first + (last - first) / 2;
+  if (last >= first) {
+    int mid = (first + last) / 2;
 
     // Check if the name is present at mid
     if (m.at(mid).get()->getName() == name) return mid;
-    // If name is greater, ignore left half
-    else if (m.at(mid).get()->getName() < name)
-      first = mid + 1;
+    // If name is smaller than mid, it must be in the left half
+    else if (m.at(mid).get()->getName() > name)
+      return recursiveBinarySearch(m, first, mid - 1, name);
     // If name is smaller, ignore right half
     else
-      last = mid - 1;
+      return recursiveBinarySearch(m, mid + 1, last, name);
   }
 
   // If we get here, the value isn't present
