@@ -1,0 +1,456 @@
+What is the file name  ? BankData.txt
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Fernando Diaz
+Account Number: 1234
+Account Balance: 250.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+//Adding a new account to the database
+
+Which action would you like to test ?2
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Fernando Diaz
+Account Number: 1234
+Account Balance: 250.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+***** Adding New Account *****
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+***** Displaying Resulting Sorted Database *****
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Fernando Diaz
+Account Number: 1234
+Account Balance: 250.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+//removing account Fernando Diaz
+
+Which action would you like to test ?3
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Fernando Diaz
+Account Number: 1234
+Account Balance: 250.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+***** Removing Account *****
+Account Name: Fernando Diaz
+Account Number: 1234
+Account Balance: 250.00
+Account Type: Checking
+
+***** Displaying Resulting Sorted Database *****
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+//Backing up the database
+Which action would you like to test ?4
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Verified Backup
+
+//making changes to database and comparing with backup
+Which action would you like to test ? 5
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Backup Error Databases do not match
+
+//withdraw from checking amount (positive and negative amounts
+within limit)
+
+Which action would you like to test ?6
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Withdraw Successful for this amount 20$
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 967.56
+Account Type: Checking
+
+Withdraw Successful for this amount -20$
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+//trying to overdraw from checking account
+Which action would you like to test ?7
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Withdraw Unsuccessful for this amount - Minimum funds 99.99
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Withdraw Successful for this amount 5000$
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 5004.80
+Account Type: Checking
+
+//trying to withdraw from savings account - should not be allowed
+Which action would you like to test ?8
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+
+Withdraw Unsuccessful - Cannot Withdraw from Savings Account
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+//depositing with and without rewards
+Which action would you like to test ?9
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai Vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Deposit Successful for $1001 - rewards added
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 2046.00
+Account Type: Savings
+
+Deposit Successful for $20
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 2066.00
+Account Type: Savings
+
+//trying to deposit positive and negative amounts
+Which action would you like to test ?10
+Account Name: Matilda Patel
+Account Number: 1232
+Account Balance: -4.00
+Account Type: Savings
+
+Account Name: Howard Chen
+Account Number: 1236
+Account Balance: 194.56
+Account Type: Savings
+
+Account Name: Sugata Misra
+Account Number: 1238
+Account Balance: 10004.80
+Account Type: Checking
+
+Account Name: Vai vu
+Account Number: 1240
+Account Balance: 987.56
+Account Type: Checking
+
+Account Name: Lily Zhaou
+Account Number: 1242
+Account Balance: 1.98
+Account Type: Savings
+
+Account Name: John Smith
+Account Number: 1420
+Account Balance: 154.67
+Account Type: Checking
+
+Deposit Unsuccessful - Negative Amount: -$20
+Deposit Successful for $20
