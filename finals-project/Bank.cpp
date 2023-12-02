@@ -43,6 +43,10 @@ void fillVector(ifstream &input,
       accountsVector.push_back(tmp);
     }
   }
+  // HACK: For some reason, the last entry is written twice to the vector, but I
+  // can't figure out why for the life of me
+  // Using pop_back fixes this though
+  accountsVector.pop_back();
 }
 
 void Bank::displayAccounts() {
