@@ -81,6 +81,7 @@ Bank::Bank(string filename) {
     // If we got here, that must mean we successfully opened the file
     // Fill out the vector
     fillVector(input, accountsVector);
+    input.close();
     sortAccounts();
   } catch (FileException error) {
     // Report the error
