@@ -72,7 +72,7 @@ void UserAccount::deposit(double amount) {
 }
 
 void UserAccount::addReward(double amount) {
-  accountBalance += accountBalance + REWARD_RATE * amount;
+  accountBalance = accountBalance + REWARD_RATE * amount;
 }
 
 const double UserAccount::MIN_BALANCE = 9.99;
